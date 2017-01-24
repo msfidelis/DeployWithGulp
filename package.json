@@ -1,0 +1,37 @@
+{
+  "name": "deploygulp",
+  "version": "1.0.0",
+  "description": "Minha Stack de Deploy e automatizações com Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/msfidelis/DeployWithGulp.git"
+  },
+  "keywords": [
+    "Gulp",
+    "JS",
+    "DevOPS",
+    "Deploy"
+  ],
+  "author": "Matheus Fidelis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/msfidelis/DeployWithGulp/issues"
+  },
+  "homepage": "https://github.com/msfidelis/DeployWithGulp#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.6",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-usemin": "^0.3.27"
+  }
+}
